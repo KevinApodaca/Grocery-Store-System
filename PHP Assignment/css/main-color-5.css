@@ -1,0 +1,152 @@
+/*
+
+[BizLinks Core Stylesheet]
+
+Project: BizLinks - Material Design Agency and Business Template
+Version: 1.2
+Author : themelooks.com
+
+*/
+
+/*------------------------------------*\
+    COLOR
+\*------------------------------------*/
+#topNav .nav-body .mainNavButton,
+#topNavbar2 .dropdown-menu li a:hover,
+.mainNav .nav li a:hover,
+.mainNav .nav li a:focus,
+.mainNav .nav li.active a,
+.mainNav-social-links li a:hover,
+.mainNav i.menu-icon,
+.team-item:hover h2,
+.team-social-links li a:hover,
+.project-item h2:hover a,
+.project-item:hover .icon i.fa,
+.blog-item:hover h2.blog-item-title a,
+.blog-item:hover a.blog-item-comments-link,
+.blog-item.active a.blog-item-comments-link,
+.contact-address .social-links ul li a:hover,
+#tweets a,
+a.footer-thumb-link,
+.footer-thumb-date,
+#copyright a,
+.popupNavMenu li a,
+#pageHeader .breadcrumb>.active,
+#services.page .service-item h2,
+.about-page-description blockquote,
+.about-page-description li,
+#subscribe .submit-button,
+.portfolio-item .dh-overlay i.fa:hover,
+.portfolio-popup .mfp-social ul li a:hover,
+.fOf-content h2,
+.widget.archives li:hover a,
+.widget.categories li:hover a,
+.post-time-date a,
+.blog-details blockquote,
+.blog-details .mdl-card__supporting-text ul,
+.blog-item .post-category .link,
+.post-author .social-share li a:hover,
+a.post-author-name,
+.comment-meta a,
+#pageHeader .breadcrumb li a:hover,
+#topNav2 a.navbar-brand span,
+.service-item i.ico,
+.service-item .mdl-card__supporting-text h2,
+.project-item:hover h2 a,
+.project-item.active h2 a,
+.project-item.active .icon i.fa,
+#callToAction .buy-now-btn,
+.links-widget li a:hover {
+    color: #673AB7;
+}
+
+.portfolio-popup h2.mfp-title {
+    color: #2196F3 !important;
+}
+
+/*------------------------------------*\
+    BACKGROUND COLOR
+\*------------------------------------*/
+.admin-controls a.mdl-button--accent.mdl-button--raised,
+a.mainNav-logo,
+#topNav .nav-body .login-form-button,
+#topNav .navbar-brand,
+.header-slider-content a.mdl-button--accent.mdl-button--raised,
+.header-items .owl-page.active span,
+a.section-footer-link.mdl-button--accent.mdl-button--raised,
+.section-title h2:before,
+.about-progress-bar .progress-bar,
+#about .read-more,
+.team-items .owl-controls button,
+.team-item .mdl-card__menu .mdl-menu__container .mdl-menu .progress-bar,
+#subscribe,
+#subscribe.bg-image .submit-button.mdl-button--accent.mdl-button--raised,
+.service-item:hover i.ico,
+.service-item.active i.ico,
+.service-item .read-more.mdl-button--accent.mdl-button--raised,
+.project-item-slider .owl-page span,
+#bgVideo .play-button a,
+.portfolio-filter-menu ul,
+#callToAction,
+.ptc-price,
+.pricing-table .mdl-card__actions a.mdl-button--accent.mdl-button--raised,
+.meta-data .date,
+.blog-item:hover .mdl-card__actions a.mdl-button,
+.blog-item.active .mdl-card__actions a.mdl-button,
+.post-metadata .tags-widget a.mdl-button--accent.mdl-button--raised,
+.single-comment .mdl-card__actions a.mdl-button,
+.contact-form input[type="submit"].mdl-button--accent.mdl-button--raised,
+.popupNavMenu li span,
+.loginForm .mdl-card__title img,
+.login-form-submit-btn.mdl-button.mdl-button--accent.mdl-button--raised,
+#loginForm label:after,
+#loginForm input.valid + label:after,
+.signupForm .mdl-card__title img,
+.singup-form-submit-btn.mdl-button.mdl-button--accent.mdl-button--raised,
+#signupForm label:after,
+.mfp-link.mdl-button.mdl-button--accent.mdl-button--raised,
+.fOf-content a.mdl-button.mdl-button--accent.mdl-button--raised,
+.search.widget label:after,
+.widget.archives li:before,
+.widget.categories li:before,
+.single-comment .mdl-button,
+#postCommentForm input[type="submit"],
+#postCommentForm label:after,
+.contact-form label:after,
+.facts-icon i.fa,
+.project-item:hover .read-more,
+.project-item.active .read-more,
+.team-items .owl-page span,
+.tags-widget a.mdl-button--accent.mdl-button--raised:hover,
+.widget.tags-widget a.mdl-button--accent.mdl-button--raised,
+.post-metadata.tags-widget a.mdl-button--accent.mdl-button--raised {
+    background-color: #673AB7;
+}
+
+.form-button {
+    background-color: #673AB7 !important;
+}
+
+#about .team-item .mdl-button {
+    background-color: transparent !important;
+}
+
+/*------------------------------------*\
+    BORDER COLOR
+\*------------------------------------*/
+#topNavbar2 li a:hover,
+#topNavbar2 li.active a,
+.mainNav .dropdown-menu li.active a,
+.mainNav .dropdown-menu > li > a:hover,
+.header-items .owl-page,
+.about-page-description blockquote,
+.portfolio-item .dh-overlay i.fa:hover,
+.project-item-slider .owl-page,
+.team-items .owl-page,
+.links-widget li a:hover,
+.tags-widget a.mdl-button--accent.mdl-button--raised:hover,
+.widget.tags-widget a.mdl-button--accent.mdl-button--raised,
+.post-metadata .tags-widget a.mdl-button--accent.mdl-button--raised,
+.blog-details blockquote {
+    border-color: #673AB7;
+}

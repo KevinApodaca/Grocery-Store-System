@@ -1,0 +1,113 @@
+<?php
+if (!empty($_POST)){
+    $comment = $_POST['comment']
+}
+?>
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="PHP Assignment for CS3360 with Nigel Ward, Fall 2019 semester at the University of Texas at EL Paso">
+    <meta name="author" content="Kevin Apodaca">
+
+    <title>PLU Interface - Kevin Apodaca</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href="css/material.min.css" rel="stylesheet" type='text/css'>
+    <link href="css/owl.carousel.css" rel="stylesheet" type='text/css'>
+    <link href="css/magnific-popup.css" rel="stylesheet" type='text/css'>
+    <link href="css/animate.min.css" rel="stylesheet" type='text/css'>
+    <link href="css/jquery.directional-hover.min.css" rel="stylesheet" type='text/css'>
+    <link href="css/preloader.css" rel="stylesheet" type='text/css'>
+    <link href="style.css?1" rel="stylesheet" type='text/css'>
+    <link href="css/button-color-1.css" rel="stylesheet" type='text/css' id="buttonColorScheme">
+    <link href="css/main-color-1.css" rel="stylesheet" type='text/css' id="mainColorScheme">
+
+</head>
+<body data-spy="scroll" data-target="#topNavbar2" data-offset="80">
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="circle"></div>
+        <div class="left-door"></div>
+        <div class="right-door"></div>
+    </div>
+    <!-- Preloader End -->
+    
+<!-- MAIN HTML -->
+    <div id="contact">
+        <div id="map"></div>
+        <div class="contact-window mdl-card mdl-shadow--24dp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="section-title text-center">
+                            <h2>PLU Interface</h2>
+                            <p>Welcome to the interface for the PLU, please enter a name of the name for your item as well as its unique PLU. If you cannot find this information please ask 
+                                a store associate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- info Start -->
+                    <div class="col-md-3 contact-info">
+                        <h2>PHP Assignment</h2>
+                        <info>
+                            <p class="Author"><i class="fa fa-id-card"></i> Author <span class="pull-right">Kevin Apodaca</span></p>
+                            <p class="Class"><i class="fa fa-university"></i> Class <span class="pull-right">CS 3360</span></p>
+                        </info>
+
+                    </div>
+                    <!-- info End -->
+                    <div class="col-md-9 contact-form">
+                        <div class="contact-form-status"></div>
+                        <form action="#" method="post" id="contactFrom">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <input class="mdl-textfield__input" type="text" name="contactName" id="contactName">
+                                        <label class="mdl-textfield__label" for="contactName" form action = "<? = $_SERVER['PHP_SELF']?>" method = "POST">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <input class="mdl-textfield__input" type="text" id="contactEmail" name="contactEmail">
+                                        <label class="mdl-textfield__label" for="contactEmail">PLU</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="submit" value="Submit" class="mdl-button mdl-button--raised mdl-button--accent">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN HTML End -->
+  
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/isotope-docs.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.directional-hover.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

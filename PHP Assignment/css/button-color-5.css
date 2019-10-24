@@ -1,0 +1,33 @@
+/*
+
+[BizLinks Core Stylesheet]
+
+Project: BizLinks - Material Design Agency and Business Template
+Version: 1.2
+Author : themelooks.com
+
+*/
+
+/*------------------------------------*\
+    BACKGROUND COLOR
+\*------------------------------------*/
+.up-arrow > a.mdl-button,
+.down-arrow > a.mdl-button,
+.extra-down-arrow > a.mdl-button,
+.down-arrow-indicator > a.mdl-button,
+.up-arrow > a.mdl-button:hover,
+.down-arrow > a.mdl-button:hover,
+.extra-down-arrow > a.mdl-button:hover,
+#popupNavButton,
+#open-switcher,
+#close-switcher {
+    background-color: #673AB7 !important;
+}
+
+/*------------------------------------*\
+    BORDER COLOR
+\*------------------------------------*/
+#open-switcher,
+#close-switcher {
+    border-color: #673AB7 !important;
+}
